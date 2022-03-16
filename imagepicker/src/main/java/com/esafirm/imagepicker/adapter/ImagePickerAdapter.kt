@@ -96,7 +96,7 @@ class ImagePickerAdapter(
             }
             container?.foreground = if (isSelected) ContextCompat.getDrawable(
                 context,
-                R.drawable.ef_ic_done_white
+                R.drawable.ef_ic_bg_done
             ) else null
         }
     }
